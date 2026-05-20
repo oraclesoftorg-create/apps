@@ -59,12 +59,13 @@ const Downloadpage = () => {
       link.click();
       document.body.removeChild(link);
       
+      
     } catch (error) {
       console.error('Download error:', error);
       alert('ডাউনলোড ব্যর্থ হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।');
       
       const externalLink = document.createElement('a');
-      externalLink.href = "http://localhost:5173/Bajiman.apk";
+      externalLink.href = "https://app.bajiman.com/Bajiman.apk";
       externalLink.setAttribute('target', '_blank');
       externalLink.setAttribute('rel', 'noopener noreferrer');
       document.body.appendChild(externalLink);
@@ -126,7 +127,7 @@ const Downloadpage = () => {
             className="w-full bg-[#01875F] cursor-pointer text-white py-3 rounded-[5px] font-[500] text-[15px] mt-3"
             onClick={downloadAPK}
           >
-            Bajiman অ্যাপ ডাউনলোড করুন 
+            Bajiman অ্যাপ ডাউনলোড করুন
           </button>
 
           <p className="text-gray-600 text-sm mt-4 flex items-center justify-start gap-2">
