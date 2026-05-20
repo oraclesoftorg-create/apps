@@ -12,7 +12,7 @@ import Footer from '../components/Footer';
 import apps_img1 from "../assets/apps1.png";
 import apps_img2 from "../assets/apps2.png";
 import apps_img3 from "../assets/apps3.png";
-import logo from "../assets/apps_logo.png";
+import logo from "../assets/apps_logo.jpg";
 import { HiMiniDevicePhoneMobile } from "react-icons/hi2";
 import { BsBank } from "react-icons/bs";
 
