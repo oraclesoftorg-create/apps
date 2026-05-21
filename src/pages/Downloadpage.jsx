@@ -189,14 +189,24 @@ const Downloadpage = () => {
                 </div>
                 <p className="text-sm text-gray-600 mt-1">"গত মাসে ৫০,০০০ টাকা জিতেছি। টাকা হাতে পেয়ে খুব খুশি। বাজিম্যান দারুণ একটি প্ল্যাটফর্ম।"</p>
               </div>
-              <div className="pb-2">
+              <div className="border-b border-gray-100 pb-3">
                 <div className="flex items-center gap-2">
-                  <span className="font-semibold text-gray-800">নিশাত মাহমুদ</span>
+                  <span className="font-semibold text-gray-800">খায়রুল বাসার</span>
                   <div className="flex text-yellow-400">
                     <MdStar /><MdStar /><MdStar /><MdStar /><MdStar />
                   </div>
                 </div>
                 <p className="text-sm text-gray-600 mt-1">"অ্যাপটা খুব ইউজার ফ্রেন্ডলি। কাস্টমার সাপোর্ট ২৪/৭ অনলাইন থাকে। দারুণ অভিজ্ঞতা!"</p>
+              </div>
+              {/* নতুন রিভিউ যোগ করা হয়েছে */}
+              <div className="pb-2">
+                <div className="flex items-center gap-2">
+                  <span className="font-semibold text-gray-800">জমিনুদ্দিন</span>
+                  <div className="flex text-yellow-400">
+                    <MdStar /><MdStar /><MdStar /><MdStar /><MdStar />
+                  </div>
+                </div>
+                <p className="text-sm text-gray-600 mt-1">"বাজিম্যান অ্যাপ ব্যবহার করে ৩ মাস হলো। এখনো পর্যন্ত কোনো সমস্যা হয়নি। বোনাস অফারগুলো দারুণ এবং টাকা তোলার সিস্টেম খুব দ্রুত। সবার জন্য রেকমেন্ড করবো!"</p>
               </div>
             </div>
           </div>
